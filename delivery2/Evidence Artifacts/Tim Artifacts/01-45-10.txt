@@ -1,0 +1,22 @@
+MIME-Version: 1.0
+Date: Sun, 3 Nov 2019 01:45:10 +0000
+Message-ID: <CAG53NsXTpXKyN84Yxc+=X_ZZhLb9SG2r27cRman2n0HqxSKWYw@mail.gmail.com>
+Subject: Got it!
+From: Tim Frasik <tim.frasik@gmail.com>
+To: Matty Roberts <matty.roberts98@outlook.com>
+Content-Type: multipart/alternative; boundary="00000000000078247505966759ef"
+
+--00000000000078247505966759ef
+Content-Type: text/plain; charset="UTF-8"
+
+I got the info. You won't believe it!!
+I have to show this to you and I need you to store it for me.
+
+Tim
+
+--00000000000078247505966759ef
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">I got the info. You won&#39;t believe it!!<div>I have to show this to you and I need you to store it for me.</div><div><br></div><div>Tim</div></div>
+
+--00000000000078247505966759ef--

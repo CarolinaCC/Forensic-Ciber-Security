@@ -1,0 +1,54 @@
+ip addr
+ping 10.10.9.1
+ping 10.10.9.14
+ls /mydata/
+ls
+cd /
+ls
+mkdir memtools
+sudo su
+shitdown -h now
+shutdown -h now
+apt install alpine
+sudo apt install alpine
+ls
+alpine
+ip addr
+alpine
+shutdown -h now
+ls
+sudo apt install offlineimap
+sudo apt purge alpine
+rm -r mail/
+ls
+sudo apt install offlineimap
+nano .offlineimaprc
+offlineimap -o
+nano .offlineimaprc
+offlineimap -o
+nano .offlineimaprc
+offlineimap -o
+mkdir -p Mail/Outlook
+offlineimap -o
+ls
+ls Mail/Outlook/Inbox/
+ls Mail/Outlook/Inbox/new/
+offlineimap -o
+shutdown -h ow
+shutdown -h now
+offlineimap -o
+ls Mail/Outlook/Inbox/
+cd ne
+cd new
+cat new
+ls
+cat Mail/Outlook/Inbox/new/
+ls Mail/Outlook/Inbox/new/
+offlineimap -o
+ls
+mkdir usb_drive
+sudo su
+offlineimap  -o
+cd /memtools/LiME/
+ls
+sudo su

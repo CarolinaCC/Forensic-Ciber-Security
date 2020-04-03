@@ -1,0 +1,78 @@
+mkdir memtools
+ls
+git clone https://github.com/504ensicsLabs/LiME
+ls
+mv LiME/ memtools/
+ls
+cd memtools/
+ls
+git clone https://githib.com/volatilityfoundation/volatility
+git clone https://github.com/volatilityfoundation/volatility
+ls
+cd LiME/
+cd src/
+ls
+make
+apt install make
+make
+apt install gcc
+make
+ls
+cd ..
+ls
+cd volatility/
+ls
+cd tools/linux/
+make clean
+make
+apt install dwarfdump
+make clean
+make
+cd ..
+ls
+uname -a
+lsb_release 
+zip Ubuntu160406.zip volatility/tools/linux/module.dwarf /boot/System.map-4.4.0-142-generic 
+apt install zip
+zip Ubuntu160406.zip volatility/tools/linux/module.dwarf /boot/System.map-4.4.0-142-generic 
+ls
+exit
+mount /dev/sdb1 usb_drive/
+cd usb_drive/
+ls
+cp akamaru.bmp masashi_kishimoto.txt naruto_run.gif naruto_wikipedia.txt villains.zip attack naruto_opening.wav naruto_scream.wav /mydata/
+cd ~
+cd /mydata/
+ls
+cd ~
+umount /mydata/
+cfdisk
+offlineimap -o
+cd src/
+make clean
+make
+ls
+insmod lime-4.4.0-142-generic.ko "path=/tmp/matty.mem format=lime"
+cd ..
+ls
+cd ..
+ls
+cp Ubuntu160406.zip volatility/volatility/plugins/overlays/linux/
+cd volatility/
+ls
+cd ..
+ls
+cd ..
+ls
+cd memtools/
+ls
+cd LiME/
+ls
+cd src/
+ls
+mv /tmp/matty.mem /memtools/
+cd ..
+ls
+cd volatility/
+python vol.py -f ../matty.mem --profile=LinuxUbuntu160406x64 linux_pslist
+poweroff

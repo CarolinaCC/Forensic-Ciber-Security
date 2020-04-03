@@ -1,0 +1,163 @@
+Received: from MW2NAM12HT224.eop-nam12.prod.protection.outlook.com
+ (2603:10a6:401:4e::17) by CWXP265MB0134.GBRP265.PROD.OUTLOOK.COM with HTTPS
+ via CWLP265CA0197.GBRP265.PROD.OUTLOOK.COM; Sat, 2 Nov 2019 14:20:17 +0000
+Received: from MW2NAM12FT047.eop-nam12.prod.protection.outlook.com
+ (10.13.180.58) by MW2NAM12HT224.eop-nam12.prod.protection.outlook.com
+ (10.13.181.163) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2387.28; Sat, 2 Nov
+ 2019 14:20:16 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.221.42)
+ smtp.mailfrom=gmail.com; outlook.com; dkim=pass (signature was verified)
+ header.d=gmail.com;outlook.com; dmarc=pass action=none header.from=gmail.com;
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 209.85.221.42 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.221.42; helo=mail-wr1-f42.google.com;
+Received: from mail-wr1-f42.google.com (209.85.221.42) by
+ MW2NAM12FT047.mail.protection.outlook.com (10.13.180.173) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA) id
+ 15.20.2387.28 via Frontend Transport; Sat, 2 Nov 2019 14:20:16 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:E92CECD4DBE16E6EA3E4C2C67F6837CCC4C0E9DC9E9F96E991344660A6BC5583;UpperCasedChecksum:E0472382456119FE784C56D41F0957F6D3FF4071F66EF86F8E5420CD24B3F59E;SizeAsReceived:2349;Count:15
+Received: by mail-wr1-f42.google.com with SMTP id v9so12418144wrq.5
+        for <matty.roberts98@outlook.com>; Sat, 02 Nov 2019 07:20:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=HJ00GW1LaanfPwU3ixkEHQYfJWDWZJ4HPlQtTLR05TU=;
+        b=NlpwSDm/DdrCHWlDGAcp4cT+4kekY0NXiYVXKt2Kfp7tywHaRSrxMCd0gFcJzXH/D/
+         lRdSERtB+kfTJin4yYBscUv5qMb1adqxtVrva6yO1GgTFV5XYv5EK9LfP5Ss7nsXKy1a
+         a32ThLQFicNhsgZrFxRP/AI8JZ79b8H/teTdvIdb2Ihps7KKnefWp9FWYJxvuPRp7Gnr
+         0S4zJ0gmaNV68Cdgvxd0VDpRXv47aDHY0GYXA9KGq9t8Jn2fSB16OD3ki+Gip5g70Uky
+         iVgw4grLLDioKYLM5Vud3XDv4XvOdEe4I4ro9nVEypaEnWsLstDLj2gIOB0W/QhPwpRY
+         Y28w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=HJ00GW1LaanfPwU3ixkEHQYfJWDWZJ4HPlQtTLR05TU=;
+        b=lOR5wB67Pv4OIE8CvdZ3EMM8DjkQpkW6cgGK7D9JNZuURKYqkUyCS8Pp8kW42GKz06
+         ouw+iKQRKVYbkxUb/kMT2YA89D574lshlWv5+2YxalmLPZ6RVmp40QF4Is8I6BgV8yo2
+         4Jse8Ii43vEOc9kRMwxH4yPdX5D3Vv0RNpto+JVUaXD2C8H3QtyBWeU0arg86POR3ESN
+         4wS0aaTnTnC8cmtS+U+5JwCUrwPFL5pl7CoV67+pdXcESzmTRtBmGEy96GZ/PvQ5wHSC
+         KYPMRLqKHWYM5ad+zIxpUbWkeb2vXU99fVyCj/du27tKPyIc/IQ/HTGFqqiZdU3Mgzks
+         OSIg==
+X-Gm-Message-State: APjAAAVb7NCnnOOaYSe1WyP2a6SMylpGBRiDVpiPpawQ0UdmJ/PmlGIq
+	B5iVYEgwQGz9DQrLHjgcy65ogp5+c22drrlHUIeiCVuj
+X-Google-Smtp-Source: APXvYqz5u8YNqv+is8SrBoen8w5k/DJlJyTzQ3K9/swsHkS6/JeIFduOXc6zxw/HdjzcMJ+ym+pYwMe646QmVgN46JI=
+X-Received: by 2002:adf:eec4:: with SMTP id a4mr15067841wrp.38.1572704416413;
+ Sat, 02 Nov 2019 07:20:16 -0700 (PDT)
+References: <CWXP265MB0134EACEC55F3226D6D0A64CE97D0@CWXP265MB0134.GBRP265.PROD.OUTLOOK.COM>
+In-Reply-To: <CWXP265MB0134EACEC55F3226D6D0A64CE97D0@CWXP265MB0134.GBRP265.PROD.OUTLOOK.COM>
+From: Tim Frasik <tim.frasik@gmail.com>
+Date: Sat, 2 Nov 2019 14:20:06 +0000
+Message-ID: <CAG53NsUeuAU3CsWJabt7-_L66EdjOWr1xcn1mz03YHFgJvdAvw@mail.gmail.com>
+Subject: Re: Secret stuff
+To: Matty Roberts <matty.roberts98@outlook.com>
+Content-Type: multipart/alternative; boundary="00000000000013bab005965dc8a0"
+X-IncomingHeaderCount: 15
+Return-Path: tim.frasik@gmail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 02 Nov 2019 14:20:16.8617
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ f8f33a51-0306-4cb2-0e4e-08d75f9fc8bf
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Forefront-Antispam-Report: EFV:NLI;
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM12FT047.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-UserLastLogonTime: 11/2/2019 2:13:22 PM
+X-MS-Office365-Filtering-Correlation-Id: f8f33a51-0306-4cb2-0e4e-08d75f9fc8bf
+X-MS-TrafficTypeDiagnostic: MW2NAM12HT224:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.85.221.42
+X-SID-PRA: TIM.FRASIK@GMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Antispam: BCL:0;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 02 Nov 2019 14:20:16.8227
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f8f33a51-0306-4cb2-0e4e-08d75f9fc8bf
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MW2NAM12HT224
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.1671738
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.2387.030
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;OFR:SpamFilterPass;ENG:(5062000261)(5061607266)(5061608174)(1005109)(4900115)(4920090)(6225004)(4950130)(4990090)(9110004);
+X-Message-Info:
+	5vMbyqxGkdcR/d/GnxoxXgQ6ABMl0W8IEkK0UDH8yFvo3HjbBOoOl/tZ9H6voEnL3jlmP9eEpg83+ucq2c491GUoa4TziKEf/zm+9L8PP/M+czwm42W8kpMDIB3wvP4AnnIGIO0vlqOlMBAgWUeYtFoK2cHY691rxS3wGHOLOueLJiBN0N4NUwfvHrNjVyAj7tF0+BEL4geFd790NQ42PQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info:
+	qHBdwgLtqJfLUtoUy6MAm7XC94fB/IbSfszCofsdUv5XCjmKAAAtjyds6TLU0vwhRvlPKOnMlJCYCv5iAaTeOFuWprK0QG0o9vXNVzmg8P0zhT0vSUNubErOCeg8lHd/7EnoDL/qqbRlEGsNHHfKKgBjyu7+8SyWhOLfhzbYiRX7QTGRiUdNGmintKxzM9/APFRfUcL4uG7h8/NGwHejbz8HLD8g/MTeqwzQnS1SIxVZdDbnDuvofIMuBkZxT/Ed8lzgEA/8BvYE/9aTMouoy2E+Q6iW+vAqo5OWH0g1s5/77QJP3gjhlEyn8JrMGyVfzuIZtd8zAFi8JDIcgN+JsWrd1YQAmVkhFOJT9/BOyF5AdRLBR3zs2qY1XOr8PvTMoDYGUxS5vz/r25n5LpypiJP7QJ9jJX0GxAyYxKHW8x4pzcTScAXE/FOP4FsWqTpVZfh/P6f5aahmpP/T0wVCJwU+q8hxmJV5Hqa+7SV/4WAVj8eXzjHEnxJwZTaRjMQqX9DUII58stvkvwUKu+PUNQe2i4nn95ebdmVVPTSRN4moyWT3bbH9EcfyV9vXLE9Z4R1IRBgGKuct1qf9kBAT3pQvLlxTA1gdV39N6t85ulbDUcTbbjWwN/W3KcHiDVZN/erPF7wj/Wc8imXyak9fSLrv6cddv2mpzr5zreYVop9TM8/+wz3H0IKnJy4lR4KSGLQSECVBUQSxWSs3zyPgmzJ4TD6Pp3WjkMdC7TnBC4w04ittY2Y+BMD3aim7Szr76MgqbfWOR9jJULop4O5XU4dcKSiMXjxUrqFkXVr3FjsRWVYiznoQ+0SPCT6zI4LbiDRFjSy0bYKgqBq1bcPeJMNhd0Rs2+qai6Gt4KgwppL3OXID10oGp8bL0FnopRYec9ycB1JilvwRFvxbYlAYNg==
+MIME-Version: 1.0
+
+--00000000000013bab005965dc8a0
+Content-Type: text/plain; charset="UTF-8"
+
+Hi, Matty!
+
+Not yet... But stay tuned, because we're about to wreak havoc on the ENEMY!!
+
+-Tim
+
+On Sat, Nov 2, 2019 at 2:16 PM Matty Roberts <matty.roberts98@outlook.com>
+wrote:
+
+> Hey, Tim! What's up?
+>
+> Got some news about that super-secret thing we've been talking about for a
+> while now?
+>
+> -Matty
+>
+
+--00000000000013bab005965dc8a0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><d=
+iv dir=3D"ltr">Hi, Matty!<br><div><br></div><div>Not yet... But stay tuned,=
+ because we're about to wreak havoc on the ENEMY!!<br></div><div><br></div>=
+<div>-Tim</div></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">On Sat, Nov 2, 2019 at 2:16 PM Matty Roberts &lt;<a href=3D=
+"mailto:matty.roberts98@outlook.com">matty.roberts98@outlook.com</a>&gt; wr=
+ote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px=
+ 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+
+
+
+
+<div dir=3D"ltr">
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif;font-size:12pt=
+;color:rgb(0,0,0)">
+Hey, Tim! What's up?</div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif;font-size:12pt=
+;color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif;font-size:12pt=
+;color:rgb(0,0,0)">
+Got some news about that super-secret thing we've been talking about for a =
+while now?<br>
+</div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif;font-size:12pt=
+;color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Arial,Helvetica,sans-serif;font-size:12pt=
+;color:rgb(0,0,0)">
+-Matty</div>
+</div>
+
+</blockquote></div>
+
+--00000000000013bab005965dc8a0--

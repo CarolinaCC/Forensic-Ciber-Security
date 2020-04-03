@@ -1,0 +1,209 @@
+mkdir memtools
+ls
+cd memtools/
+ls
+git clone https://github.com/504ensicsLabs/LiME
+apt install make gcc
+git clone https://volatilityfoundation/volatility
+git clone https://github.com/volatilityfoundation/volatility
+cd LiME/src/
+make
+cd ..
+ls
+cd ..
+ls
+cd volatility/tools/linux/
+make clean
+apt install dwarfdump
+make clean
+make
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+apt install zip
+zip Ubuntu160406.zip volatility/tools/linux/module.dwarf /boot/System.map-4.4.0-142-generic 
+ls
+cd /home/
+ls
+cd tim/
+ls
+cd /
+ls
+mkdir h4ck
+cd h4ck/
+ls
+wget openwall.com/john/k/john-1.9.0-jumbo-1.tar.xz
+tar -xvzf john-1.9.0-jumbo-1.tar.xz 
+wget openwall.com/john/k/john-1.9.0-jumbo-1.tar.gz
+rm john-1.9.0-jumbo-1.tar.xz 
+ls
+tar -xvzf john-1.9.0-jumbo-1.tar.xz 
+tar -xvzf john-1.9.0-jumbo-1.tar.gz 
+mv john-1.9.0-jumbo-1 john
+ls
+cd john
+ls
+cd src/
+ls
+make clean linux-x86-64
+cd ..
+ls
+cd run/
+ls
+cd sr
+cd src
+cd ..
+ls
+cat README.md 
+ls
+cat doc/INSTALL
+lress doc/INSTALL
+less doc/INSTALL
+apt install libssl-dev libssl
+apt install libssl-dev
+less doc/INSTALL
+cd src/
+./configure && make
+make clean linux-x86-64
+ls
+cat install-sh 
+less install-sh 
+cd ..
+cd run/
+ls
+./john --test
+cd ../src/
+ls
+make
+cd ..
+cd run/
+./john --test
+ls
+cd ..
+ls
+cd ..
+ls
+curl 
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
+msfconsole
+shutdown -h now
+cfdisk
+reboot
+mkfs -t ext4 /dev/sda2 
+poweroff
+mount /dev/sda2 -t ext4 secrets
+mv commands.md tools.zip run_me.bin secrets/
+cd secrets/
+ls
+file run_me.bin 
+python2.7 run_me.bin 
+pip install requests
+apt install python-pip
+pip install requests
+python2.7 run_me.bin 
+ls
+mv tools.zip data/
+cd data/
+ls
+unzip tools.zip ; rm tools.zip 
+ls
+mkdir out
+tail -c 8177 akamaru.bmp > out/key_pair.pem
+base64 -di masashi_kishimoto.txt > out/index
+python3 stego.py naruto_opening.wav 0 1 out/map
+pip3 install bitstring
+python3 stego.py naruto_opening.wav 0 1 out/map
+python3 stego.png.py out/map
+rm out/map
+file out/map-out.png 
+python3 stego.py naruto_scream.wav 0 2 out/a2
+python3 stego.wav.py out/a2
+rm out/a2
+file out/a2
+file out/a2-out.wav 
+chmod +x get_sos.sh 
+./get_sos.sh naruto_run.gif 
+chmod +x get_word_list.sh 
+./get_word_list.sh naruto_wikipedia.txt > dict
+fcrackzip -uvDp dict villains.zip 
+unzip -P Troublemaker villains.zip 
+xxd -r -p -o 0 >(echo 4944 3303) momoshiki_otsusuki 
+xxd -r -p -o 0 <(echo 4944 3303) momoshiki_otsusuki 
+mv momoshiki_otsusuki out/audio.mp3
+cd out/
+ls -al
+cat index 
+ls
+lsusb
+dmesg
+lsblk
+mount
+lsblk
+cd ..
+mkdir usb_device
+mount /dev/sdb1 usb_device/
+ls
+cp akamaru.bmp naruto_opening.wav attack naruto_run.gif villains.zip naruto_scream.wav masashi_kishimoto.txt naruto_wikipedia.txt usb_device/
+cd usb_device/
+ls
+offlineimap -o
+ls
+umount /dev/sdb1
+ls
+cd usb_device/
+ls
+cd ..
+cfdisk
+ls
+umount secrets/
+lsof
+umount secrets/
+ls
+lsof(8)
+lsof
+cd secrets/
+ls
+rm * -rf
+ls
+cd ..
+umount secrets/
+umount -l secrets/
+umount -l /dev/sda2
+umount -f secrets/
+ls
+cd secrets/
+ls
+cd ..
+dd if=/dev/zero of=/dev/sda2 bs=512 count=1
+cfdisk
+mkfs -t ext4 /dev/sda2
+mkfs -t ext4 /dev/sda2 -f
+cfdisk 
+ls
+rm secrets/
+rm secrets/ -rf
+ls
+insmod LiME/src/lime-4.4.0-142-generic.ko "path=/memtools/tim format=lime"
+ls
+mv tim tim.mem
+ls
+cd volatility/
+ls
+python2.7 vol.py ../tim.mem 
+ls
+cd ..
+ls
+cp Ubuntu160406.zip volatility/volatility/plugins/overlays/linux/
+cd volatility/
+python vol.py --info
+python vol.py --info | less
+python vol.py -f ../tim.mem --profile=LinuxUbuntu160406x64 linux_pslist
+make clean
+make
+ls
+cd ../..
+sudo su
+poweroff

@@ -1,0 +1,1011 @@
+Received: from CO1NAM04HT062.eop-NAM04.prod.protection.outlook.com
+ (2603:10a6:401:51::18) by CWXP265MB0134.GBRP265.PROD.OUTLOOK.COM with HTTPS
+ via CWLP265CA0102.GBRP265.PROD.OUTLOOK.COM; Sat, 2 Nov 2019 22:29:03 +0000
+Received: from CO1NAM04FT030.eop-NAM04.prod.protection.outlook.com
+ (10.152.90.54) by CO1NAM04HT062.eop-NAM04.prod.protection.outlook.com
+ (10.152.91.199) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2387.20; Sat, 2 Nov
+ 2019 22:29:02 +0000
+Authentication-Results: spf=pass (sender IP is 136.147.181.103)
+ smtp.mailfrom=bounce.microsoftstoreemail.com; outlook.com; dkim=pass
+ (signature was verified) header.d=microsoftstoreemail.com;outlook.com;
+ dmarc=pass action=none header.from=microsoftstoreemail.com;
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.microsoftstoreemail.com designates 136.147.181.103 as permitted
+ sender) receiver=protection.outlook.com; client-ip=136.147.181.103;
+ helo=mta9.microsoftstoreemail.com;
+Received: from mta9.microsoftstoreemail.com (136.147.181.103) by
+ CO1NAM04FT030.mail.protection.outlook.com (10.152.90.153) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2387.20 via Frontend Transport; Sat, 2 Nov 2019 22:29:01 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:3D2A44EE5AA4E8BD3F6B8ADDB598B767F94654075674F26129B5A3E8DCA61D1D;UpperCasedChecksum:388CAB7081218BE32EE0DBBA50CE035A06C418D36C84DD0030BDCD9DE049CF74;SizeAsReceived:1126;Count:12
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=microsoftstoreemail.com;
+ h=From:To:Subject:Date:MIME-Version:List-ID:Message-ID:Content-Type;
+ i=microsoftstore@microsoftstoreemail.com;
+ bh=Q55JbTyXGDyCtyrMylwDQVJdFcUlHOqZAiLVB1SwmsQ=;
+ b=tRL7Ory8JioIpL+t4ef09aR8KZdvBLypAo0wFHL245Qy76KTlheHG38UK0+hAiKh1DamkaSzEe9I
+   FcfemfYJ/esaiW6DIQO8Y4Ag5bSYYkbzngqv4WBTQXTiQHEP4FZs9Zt8tsMKwY3qiP2/GBXGvsDb
+   hZaC8Tgh967uV915STc=
+Received: by mta9.microsoftstoreemail.com id hno1is2fmd43 for <matty.roberts98@outlook.com>; Sat, 2 Nov 2019 22:15:47 +0000 (envelope-from <bounce-866153_HTML-1339582888-6145557-10359607-910@bounce.microsoftstoreemail.com>)
+From: "Microsoft Store" <microsoftstore@microsoftstoreemail.com>
+To: <matty.roberts98@outlook.com>
+Subject: Congrats! Your Microsoft account is waiting
+Date: Sat, 02 Nov 2019 16:15:47 -0600
+List-ID: <96540.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 10359607_6145557
+Message-ID: <c47a0a40-da7b-45ad-90aa-66411aea9340@ind1s01mta720.xt.local>
+Content-Type: multipart/alternative;
+	boundary="Wv2K4MfiLzoI=_?:"
+X-IncomingHeaderCount: 12
+Return-Path:
+ bounce-866153_HTML-1339582888-6145557-10359607-910@bounce.microsoftstoreemail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 02 Nov 2019 22:29:02.0534
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 2dc5cb21-38b8-403d-33b8-08d75fe40fec
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Forefront-Antispam-Report: EFV:NLI;
+X-MS-Exchange-Organization-AuthSource:
+ CO1NAM04FT030.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-UserLastLogonTime: 11/2/2019 9:08:55 PM
+X-MS-Office365-Filtering-Correlation-Id: 2dc5cb21-38b8-403d-33b8-08d75fe40fec
+X-MS-TrafficTypeDiagnostic: CO1NAM04HT062:
+X-MS-Exchange-PUrlCount: 86
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 136.147.181.103
+X-SID-PRA: MICROSOFTSTORE@MICROSOFTSTOREEMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Antispam: BCL:1;
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 02 Nov 2019 22:29:01.8383
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2dc5cb21-38b8-403d-33b8-08d75fe40fec
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1NAM04HT062
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.9238552
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.2387.030
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000261)(5061607266)(5061608174)(4900115)(4920090)(6515079)(4950130)(4990090);
+X-Message-Info:
+	5vMbyqxGkdfvjxfbwqIaPmNQLJ3PWwQj+YY65LCn50pPlr8831kCc9xZe+GgeSEXY9+lh9kTYt4mjdLI10onOSfeHF4ro9z4dN5MOIZb4pWbPLuRQLt/BeFxHXfZSQTDlCsiCPpBD2YVKCZ9sm+BNhO+iKTpGBO3yThq5l8enBXzoq/LBZ5cObYnIpIzgF+QWkJLA59or7hUt+RSogHjxw==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	ZqQJgyt4Mz18aYKCVqbaSI1e0Tca3F5SmL+9op9pKvey/Bx61PRL8EAVk8RPiTtMNQ3Kr8XV/CfR0AaoRGvri8aBbz2t2Xt8dWCAcnbR08Z5siZgRiDuxFcU+ycT1jvBGHfLaZtWMxm7IW5c8eCGziqiPrb/XOq7I1pqQTpfFB3rLobp2DXobvh7SdfPFUNMtfnPuxht0XqmlVnhclPKZs9tsngnovyHR8fWUT5QvvT6nQwSblw5pSrmFpocK2j1287kOA75xwovoT+adV3HsliJ1OacBgMi2GXMv2NV/EG0pH2C1/FbzsBhN9VRmJJOKtJHJx8FgahzdWh5yx+Zp3nGn9Vssg4M8UduqXqMK+3yzzwA8zX1XfUSK2uXsmDNyx8t84krVLmlyWKlQzHG2ya2qOkDcHUtJ5I6GHM+GyOCkiJOENY+Z+IeoxzdCc4XbBVXGuQyxtgcmkjACbFw1q7AYL+MlsWg4jIxSIski2w3yKWRkjnz568GNEZTobmrRnu10KIhemSQO9aN+Zdu9TbAFSl5W0cOtWbsswH9LcejtaBQm3f7KuILLjIZBfN6foTmPHwh77LKEx1z15gPFI5CnlzmMr3cSwZlmdWDiEWp8iHtT0z04aeRU28KmWxW21FfoJwctRBkkZ82Kol498tjEu35F5IrCdHPXbcUXnb3MuYWqy2rwq1G9F6fuLhEuyua6NK0VbJsIzzsF5msZeh3rS/LcJ/AISNEVRErQA2peraLe9CTXw4Sahxc+QYZ4SlvIHnhvrvOpVKY5fyJsMx4Ap3yHFQhMTSvCh95men2YgRvXy+VnBXtUJbCB7lpj6XgrMWQxwT07o73rSZDig==
+MIME-Version: 1.0
+
+--Wv2K4MfiLzoI=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Congrats! Your Microsoft account is waitingEnjoy easy access to all your go-to services
+https://www.microsoft.com/en-us/store/b/home?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Header_1_Home_A 
+
+Your Microsoft account is: 
+
+matty.roberts98@outlook.com
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Header_2_A&OCID=MSA_WelcomeEmail_SOE_A_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_4_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_A_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_5_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_B_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_6_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_C_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_7_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_D_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_8_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_E_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_9_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_F_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_10_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_G_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_11_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_H_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_12_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_I_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_13_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_J_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_14_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_K_image 
+
+https://www.microsoft.com/welcome?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_15_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Eco_L_image 
+
+https://www.microsoft.com/welcome?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_3_NoProduct_NoProduct_A 
+
+https://account.live.com/proofs/manage/basic?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_16_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_AMC_Security_image 
+
+https://www.microsoft.com/en-us/account/authenticator?cmp=b59wj0h_20oduce&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_17_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_Auth_image 
+
+https://www.microsoft.com/en-us/mobileapps?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_18_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_AMC_Apps_image 
+
+https://account.microsoft.com/family/?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_19_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_AMC_Family_image 
+
+https://account.microsoft.com/billing/payments?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_20_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_AMC_Pay_image 
+
+https://account.microsoft.com/rewards/?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_21_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_AMC_Rewards_image 
+
+https://microsoft.com/store?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Banner_22_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_AMC_Store_image 
+
+Your Microsoft account is: matty.roberts98@outlook.com
+
+https://account.microsoft.com/account?WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Module_23_NoProduct_NoProduct_A&OCID=MSA_WelcomeEmail_SOE_B_image 
+
+http://www.movable-ink-397.com/p/cp/de6f1436b852cba1/c?mi_u=1&mi_zip_default=&mi_country_code=US&OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Location_FAS_Generic_A&url=http%3A%2F%2Fwww.movable-ink-397.com%2Fp%2Frp%2F3ba4c744a9e5b273%2Furl 
+
+https://www.microsoft.com/en-us/store/b/surface?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Nav_Surface_Generic_A 
+
+https://www.microsoft.com/en-us/store/b/xbox?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Nav_Xbox_Generic_A 
+
+https://www.microsoft.com/en-us/store/b/PC?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Nav_PCs_Generic_A 
+
+https://www.microsoft.com/en-us/store/apps/windows?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Nav_Apps_Generic_A 
+
+https://www.microsoft.com/en-us/store/top-free/games/pc?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Nav_PCs_Gaming_Top_Free_A 
+
+https://www.microsoft.com/en-us/store/b/sale?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Nav_Deals_Generic_A 
+
+https://support.microsoft.com/en-us/help/4000644/microsoft-store-shipping-options-costs-delivery-times?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_ValueProp_FreeShipping_A 
+
+https://support.microsoft.com/en-us/help/10558/microsoft-account-refunds-for-purchases-and-subscriptions?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_ValueProp_FreeReturns_A 
+
+https://support.microsoft.com/en-us/contactus/?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_ValueProp_FreeSupport_A 
+
+https://www.microsoft.com/en-us/store/locations/events?OCID=ema_6145557&WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_ValueProp_FreeLearning_A 
+
+https://www.facebook.com/MicrosoftStore 
+
+https://instagram.com/microsoftstore 
+
+https://twitter.com/microsoftstore 
+
+https://www.youtube.com/user/microsoftstore 
+
+https://www.pinterest.com/microsoftstore/ 
+
+http://view.microsoftstoreemail.com/?qs=76869794f4d072918bcff02cfe98193a45ee6ebb94a67f7b0b40777a00d92a964cd9960c7308db86cdf866a9bf99d4f372136edb84bd8492dae462fe21950402 
+View in browser  | 
+https://careers.microsoft.com/careers/en/us/retail.aspx 
+Careers 
+
+Free standard shipping. Expected delivery within 3-7 business days after shipping. See
+
+https://support.microsoft.com/en-us/products/microsoft-store 
+webpage  for additional details.
+
+
+
+ 
+https://go.microsoft.com/fwlink/?LinkId=521839 
+Privacy Statement 
+
+Microsoft Corporation
+
+One Microsoft Way
+
+Redmond, WA 98052
+
+
+
+
+
+
+--Wv2K4MfiLzoI=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><span style="display: none"></span>
+<html>
+<head>
+    <title>Congrats! Your Microsoft account is waiting</title>
+    <style media="all" type="text/css">
+        div.preheader {
+            display: none !important;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        body {
+    background-color: #f2f2f2 !important;
+            -webkit-text-size-adjust: none;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .linkfix a {
+            color: #959595 !important;
+            text-decoration: none !important;
+            font: 9px Helvetica, Arial, sans-serif;
+        }
+
+        a.nounderline {
+            text-decoration: none !important;
+        }
+
+        p.MsoNormal {
+            margin-bottom: .0001pt;
+            font-size: 11.0pt;
+            font-family: "Calibri","sans-serif";
+            margin-left: 0in;
+            margin-right: 0in;
+            margin-top: 0in;
+        }
+    </style>  
+</head>
+<body style="background-color: #f2f2f2 !important;">
+    <!-- Wrapper -->
+    <div style="display:none;max-height:0px;overflow:hidden;">Enjoy easy access to all your go-to services</div>
+    <div style="background-color: #f2f2f2;">
+    <table align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+        <tr>
+            <td valign="top" style="background-color: #f2f2f2;">
+                <table border="0" cellspacing="0" cellpadding="0" width="620">
+                    <!-- Email -->
+                    <tr>
+                        <td valign="top">
+                            <table border="0" cellspacing="0" cellpadding="0" width="620">
+                                <!--MLL-->
+                                <!--//MLL—>
+
+                                <!--Header-->
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 85px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=23ea2432b8e096028a6b3cbe1266604f6be1d4853a9dce204f03a0963bb2df69a32f42ea2c3acd402f143570840c9c94118caedaa2db9650d90df90a9cbb28e3">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_logo.jpg" width="180" height="85" alt="Microsoft" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top" align="right" width="440" class="nounderline" style="width: 440px; padding-left: 20px; padding-right: 10px; height: 85px; font-family: Segoe UI; font-size: 14px; background-color: #f2f2f2; color: #3f3f3f; text-align: right; vertical-align: center; mso-line-height-rule: exactly; margin: 0px; line-height: 20px; -ms-word-break: break-all; word-break: break-all;">
+                                                    <br>
+                                                    <b>Your Microsoft account is: <br>
+                                                    matty.roberts98@outlook.com</b>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!--//Header-->
+                                <!-- Content -->
+                                <tr>
+                                    <td valign="top" style="padding-top: 15px;">
+                                        <table border="0" cellspacing="0" cellpadding="0" width="620">
+                                            <!-- Main Body and Store -->
+                                            <tr>
+                                                <td valign="top" style="padding: 0 7px;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" style="border: 1px solid #eeeeee;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" style="border: 1px solid #e7e7e7;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td valign="top" style="border: 1px solid #dbdbdb;">
+                                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 759px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=c5b89aabcb060a3a94ff5948ba0cb5c11ec9815c663f3ccdbf0d2a4c7fa0367a05d2e5db3548671a5a8f192a07fbd78fbc5e7d2a18a7548554ac8ce100a92008">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_01.jpg" width="600" height="759" alt="You’re all set. One account. One place to manage it all. Your Microsoft account portal provides one central location to manage your account, find a lost device, access your order history, and more. Visit your account. Your one account for all things Microsoft. Get started with your favorite Microsoft products and mobile apps with just one account." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 125px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=6acd0d83c3ab160eed16c1eec33080aa7894dc802d4e8a1236f845bb0913a7b368266a3822f44c0cbe4bd99933be8ba8216ce00807bfc4b613551d1cb1045e60">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_02.jpg" width="100" height="125" alt="Outlook" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 125px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=de49d682b6d45acc05d855c96039c4c31430d4d2dd8ad81f3b08651563251add98cd90a9568350846dcf2a17506e7ec1073e9f907aaf55cfc70c2d5526a18e1a">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_03.jpg" width="100" height="125" alt="Skype" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 125px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=701d594832a8349fde00a07c72bf36a1697fcee4aa24065d19cc266d10ff23e98aa5e2a4458f3c9e00888fa9b8b47e95cec8e7026c64afa60922208c653ae018">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_04.jpg" width="100" height="125" alt="Windows" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 125px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=a6c12b5ea6dd610c502db7d59b60d55e4ca72c5f9b4c4a954ee51161c09a0f533ef91db01ce3a1dc876820f3260401874406ad4f3531695a1c767dcdd7473b18">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_05.jpg" width="100" height="125" alt="Store" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 125px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=3a41286cd51fe054849a8d97b0ceea014bcd9ec5b4b9237a48a3e1cdb9e8ab3038e23e1bf38629a6dde2c131f92d99250c49709f834db7386513d7b4aae6f554">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_06.jpg" width="100" height="125" alt="XboxLive" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 125px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=083e0323ab9236a483cc930dc54ebad040fa9d2eb68fd0364d8ad56ef0a9f21da9d4829e1ac1b727252756314c13a8a351674c9da8208e6e0247a0f63a7ab873">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_07.jpg" width="100" height="125" alt="Office" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 142px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=f3aa3a1c911bbfc3ec68ec3dad297fc84a0edcfb826392e4af9acc152154be71151e660d71751990a0758cf03bc471182a7c359a13269e678120301639d00ca5">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_08.jpg" width="100" height="142" alt="OneDrive" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 142px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=c709605dbecbb59802232b1cb579e2b4e777f1bc9b2c9645fe05a0a4524ad7caf59414844079415b07ffc0302f8c5d2ba2e7e437ce251486ab1366d248d4ed86">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_09.jpg" width="100" height="142" alt="Bing" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 142px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=a2f584d8f1dde81f3ea94b56b9360532d8cd0ea43b0a3d9c69a61999137c8560c29082b3d9574a91576720e46959770b7d534e22ce3ec628430e05da1466d512">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_10.jpg" width="100" height="142" alt="Edge" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 142px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=252581225f1fee9fd3837363dd74534cc9937f527c0772a896cbb5b64472b27f46f5a54b0901f284c82e12d5cecd2fa8974a4cc21fc23f48e0124b5b2fcfbc7c">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_11.jpg" width="100" height="142" alt="OneNote" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 142px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=f1bd4fa86b5794c86c91a64ef9dbcf4093ebfe2e56dd07d78fb1ede0f3c52350e87fd10b98c94897233f4a6a1f8eaa36cc17eaab1069786800c39fb0112a65e3">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_12.jpg" width="100" height="142" alt="Cortana" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 142px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=b2a348b2f6fb17f74079ecb7fd7069226aada56c6f6c99748560f2e57d62b3469947dcc2d9c667a1133591ebcd097168d80a452f92d619099256864ddc21995e">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_13.jpg" width="100" height="142" alt="Mixer" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 91px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=7a32a89fdd11dacaf6d91fd9336ceafdd349e52172dadd93c014a03f799d59bedc5c5b262d73ce6ae6409f913b207539b4ea4d26d9206a3e1d0bb9185c45ab0a">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_14_v2.jpg" width="600" height="91" alt="Learn More." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="padding: 7px 7px 0;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" style="border: 1px solid #eeeeee;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" style="border: 1px solid #e7e7e7;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td valign="top" style="border: 1px solid #dbdbdb;">
+                                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 474px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=3a0c36b7a1a67a7d8e89f39ca258c8d62fe9c9837ff2eb27a20d5da21a559f1ef6442735666259425ec191f1e7576ee50fffe61bf95552fcad6d7549567f5b3d">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_15.jpg" width="300" height="474" alt="Set up security preferences. Don't get locked out. Add recovery information to help secure your account. Set up security." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 474px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=a3eb40c54343f054e97148f6a4edbb461f386f60d35a3eeffc2babc34051e5e3c0a89674ab51b0a69775aec83660fa73c9d0ffa3e6afcb848fb8d3447dc3daed">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_16.jpg" width="300" height="474" alt="Break free from the password. Make signing in simpler and more secure using Microsoft Authenticator on your phone. Download now." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="padding: 7px 7px 0;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" style="border: 1px solid #eeeeee;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" style="border: 1px solid #e7e7e7;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td valign="top" style="border: 1px solid #dbdbdb;">
+                                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 448px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=f69cb0860b042d87622f19379272154656a2d6cc8c450a3eaea9b2f5683fdedf47e06f1a569f2d04c0042b7b61fa2da7cc044af183e2e11c9f1c5934980f7e4a">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_17.jpg" width="600" height="448" alt="Install your mobile apps. Stay connected on your iPhone or Android phone with your favorite Microsoft apps. Download your apps." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="padding: 7px 7px 0;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" style="border: 1px solid #eeeeee;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" style="border: 1px solid #e7e7e7;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td valign="top" style="border: 1px solid #dbdbdb;">
+                                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 447px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=91eb353b7de6f7d67143bf1bbf88aa5ab813d80a13218329eedf8e361c0778bca35bed1181ba9488be601c0e5f8e63ce09b3850b1cd372e7a0f8fed05a9eb52d">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_18.jpg" width="600" height="447" alt="Set up a family group. Share Office apps, manage kids' screen time, and block mature content. Add a family member." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="padding: 7px 7px 0;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" style="border: 1px solid #eeeeee;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" style="border: 1px solid #e7e7e7;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td valign="top" style="border: 1px solid #dbdbdb;">
+                                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 407px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=4ed52c4696b99e3d693b955172767e1bf5707c5a5f884393545141d3268bf1412195f393091d5cbf8a9292f5dc1ef88d79158feb4f0ac96e4cae2beaff3db212">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_19.jpg" width="600" height="407" alt="Add a payment option. Safely and easily store your PayPal, credit card, and bank account info for easy online checkout. Choose payment options." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="padding: 7px 7px 0;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" style="border: 1px solid #eeeeee;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" style="border: 1px solid #e7e7e7;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td valign="top" style="border: 1px solid #dbdbdb;">
+                                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td valign="top">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 452px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=a1f78b645db0797ea7fb0f85763be1c9c878ef6eaef55e0d5e906a95cc3d039dc0968cf84228f547bf4c8205f4990af3094c261bc5dfb433a80cb3dc2f0a424b">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_20.jpg" width="600" height="452" alt="Join Microsoft Rewards. Earn rewards for doing what you already do with Microsoft. It's free to join. Join Now." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="padding: 10px 10px 0;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <div style="height: 50px;">
+                                                                    <a href="http://click.microsoftstoreemail.com/?qs=d3dbecdd5e4fe4204850432e762f6b651ff89d2c62d508d5f6e83fd951283f848ca29d3bf413d5f252404b3cd770a2b496992ae255c1cef310ebe07e4e69bbc5">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_21.jpg" width="600" height="50" alt="Sign in to Microsoft Store." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="padding: 10px 7px 0;">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top" style="border: 1px solid #eeeeee;">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td valign="top" style="border: 1px solid #e7e7e7;">
+                                                                            <table border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td valign="top" style="border: 1px solid #dbdbdb;">
+                                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td valign="top" style="background-color: #e6e6e6;">
+                                                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 58px;">
+                                                                                                                    <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_22.jpg" width="600" height="58" alt="Account summary." style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td style="height: 26px; padding-left: 40px; padding-right: 10px; color: #3f3f3f; font-family: Segoe UI; font-size: 16px; -ms-word-break: break-all; word-break: break-all;">
+                                                                                                                <b>Your Microsoft account is: matty.roberts98@outlook.com</b>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td valign="top">
+                                                                                                                <div style="height: 67px;">
+                                                                                                                    <a href="http://click.microsoftstoreemail.com/?qs=76e44ceb76502e42ed89d249bac72c529b755e3e628783b4caaaee23622bea347e6d482c0690154a93025ef1025197322d256de6de2c41a0f7bd58f89ef8dcdb">
+                                                                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/15803-msa-welcome-email-updates-en-us/15803_MSA_Welcome_Email_1_A_Lifestyle_HCL_23.jpg" width="600" height="67" alt="Click here to manage your account" style="display: block; border: none; color: #000000; font-size: 12px; font-family: Arial;">
+                                                                                                                    </a>
+                                                                                                                </div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!-- FAS Banner -->
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 14px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_04.jpg" width="620" height="14" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="top">
+                                                                    <div style="height: 108px;">
+                                                                        <a href="http://click.microsoftstoreemail.com/?qs=117baf5bda52999c5b632f1bd6e141f858247098e71752b4423bd6c14f5b083c8677bdab8508c52313e3b4e3f1afd311566f0dc2906e05d36e693367a5548913">
+                                                                            <img border="0" src="http://www.movable-ink-397.com/p/rp/3ba4c744a9e5b273.png?mi_u=1&amp;mi_zip_default=&amp;mi_country_code=US&amp;OCID=ema_6145557&amp;WT.mc_id=PromoEmail_15803_en_US_MSA_Welcome_Email_Updates_11-02-19_Location_FAS_Generic_A" width="620" height="108" alt="Find a Microsoft Store near you" style="display: block; border: none; color: #000000; font-size: 12px; background-color: #f2f2f2; font-family: Arial;">
+                                                                        </a>
+                                                                    </div>
+                                                             </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 18px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_06.jpg" width="620" height="18" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <!-- End FAS Banner -->
+                                            <!-- // Main Body and Store -->
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- // Content -->
+                                <!-- Nav -->
+                                 <tr>
+                                    <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=7a53f0f7ad5ab5ca7b484579a59fcf05da4c8191db7ae43d3ca0a9f8e9a20c877d5dd37da5c83f5ad6ae33b9c0f303bc7e9c47a5f6eb42adf274072fda033d62">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_07.jpg" width="310" height="40" alt="Surface" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=e1c04be089d224e5a4e090785c00ca10440a07248db061db105c6926aae1f2b5f6495df79883e578a117275323da55f96278c7a138b98876b12ad05b86a0e83d">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_08.jpg" width="310" height="40" alt="Xbox" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 20px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_08_5.jpg" width="620" height="20" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                         <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=a3494f8dc986a5ebb4f06a1785606661439d7e18070444934a80549950b719f26b3d37ba0c8c9b20b03da489b1558f263923a0a3bec01018179d23af740dc76b">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_09.jpg" width="310" height="40" alt="PCs &amp; Tablets" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=f8e7836f792b47428920ba1d5f5c6af144eb9a04334fdec8a7e72468cf7b6ac7c7897c330bf40a8c01129d3a3b85d06f2795ca05c6c4bce580f6e710888635b1">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_10.jpg" width="310" height="40" alt="Apps" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 20px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_10_5.jpg" width="620" height="20" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>                                        
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=2885ba894372b3eb2af05ee1d8c43b7c67ba9131d7d81e0adda012e0f0f992e9a4bc38d85829b8552d08dc80d28f36e2509930a8f0987175fa47dd4d0a0aef8e">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_11.jpg" width="310" height="40" alt="Digital Games" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 40px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=f74afb32badabfcdc1dbb1f3527381672dd67e2af8c98ab310cf3b1619bdaa62c3c06114451b25563c8bad3f0879f27525771d48254573aaa0b4dfd4208da02d">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_12.jpg" width="310" height="40" alt="Deals" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- // Nav -->
+                                <!-- Shipping Module -->
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 165px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=0eccb46955ab2d14859d625a8fb9e6e2cc32b8a72e9f775bd76a677641ae65cb08792b59cbba8aeb9dfc468ca4fb4797c638463d7ae8332f3e9de85c5640dfbd">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_13.jpg" width="310" height="165" alt="Shipping" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 165px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=a96721fefaae9ad057015cf069026d1c9a8624387d496f72e9160a3ef3a3b8e79d226c6016883cac0542e4d7f647aa8b99247b9583fe979433025ea6340614a4">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_14.jpg" width="310" height="165" alt="Returns" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 162px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=3c730f227235d853e9f5b25950992a0b77984f433f769f4b8079af43cf6ff8f03f323c857f0a468dc8d2c08993ee6f19466a7c8826e88cafbeee4cb836e1eb64">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_15.jpg" width="310" height="162" alt="Support" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td valign="top">
+                                                    <div style="height: 162px">
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=d93488f4acaef76f4a462bee8b948c1ec52e1d68b03275b4d3e0b07ac819e68aa53e7fe6e1d0b744d5d99850b5f81cedc983d2eca858976f7794dbffecda8194">
+                                                            <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_16.jpg" width="310" height="162" alt="Learning" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- //Shipping Module -->
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 1px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_17.jpg" width="620" height="1" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- Social Icon Module -->
+                                <tr>
+                                    <td valign="top" style="">
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                             <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="http://click.microsoftstoreemail.com/?qs=c27db875133e7ba40d65bc17af2eaef85777ed8d5aaadc52dedaefebcc349a5a6085ac11c5f49f83db57b28240e6092263bd4bc5f1c2d208">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_18.jpg" width="130" height="120" alt="Facebook" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+
+                                                            <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="http://click.microsoftstoreemail.com/?qs=cd60c24c809bc2f7cd5df6174bff86e16789b962822d560440dc472eeec85b528c577bcee90361b5b7d62e82775355e6a3f527fb8b4dc0e3">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_19.jpg" width="120" height="120" alt="Instagram" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+
+                                                            <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="http://click.microsoftstoreemail.com/?qs=14b04ad32d303ac2ee49501a2e9f309d1e70fe2e961ad0ff7448ea476c902ce06f1b641f39a8517d1f8bd4d6e33e68a7ac715265b6b296a1">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_20.jpg" width="120" height="120" alt="Twitter" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+                                                            <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="http://click.microsoftstoreemail.com/?qs=9ffcaf185d56612eed0fcc45dc962c49c625966014cc74d935778235bba4d43382ce0d6edb146bf87aab37cbc17d6248604ea8afb5a454dd">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_21.jpg" width="120" height="120" alt="YouTube" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+                                                            <td valign="top">
+                                                                <div style="height: 120px">
+                                                                    <a href="http://click.microsoftstoreemail.com/?qs=472b74787d6acd43c1cf8130de64dd5bdd8fd554938cb3b4b639bc395c1afa46e339b4e26174ab8b6f3f17b71f76c7dadd17a45abd389f3b">
+                                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_22.jpg" width="130" height="120" alt="Pinterest" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 12px; font-family: Arial;">
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- //Social Icon Module -->
+                                <tr>
+                                    <td valign="top">
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top">
+                                                    <div style="height: 3px">
+                                                        <img border="0" src="https://msstorepromoemail.blob.core.windows.net/14879-fy18-template-update-en-us/US_MasterTemplate_Promo_23.jpg" width="620" height="3" alt="" style="display: block; border: none; color: #000000; background-color: #f2f2f2; font-size: 15px; font-family: Arial;">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!--View in Browser module and Footer-->
+                                <tr>
+                                    <td valign="top" style="padding-top: 38px; padding-left: 35px; padding-right: 35px;">
+
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            
+                                            <tr>
+                                                <td valign="top" style="font-family: Arial; font-size: 16px; color: #4f4f4f; mso-line-height-rule: exactly; margin: 0px; line-height: normal; ">
+                                                    <div style="line-height: normal;">
+                                                        <a href="http://view.microsoftstoreemail.com/?qs=76869794f4d072918bcff02cfe98193a45ee6ebb94a67f7b0b40777a00d92a964cd9960c7308db86cdf866a9bf99d4f372136edb84bd84923b3448feeefdf998ce83d950b11a6297c3e24290c0c7780b0c1ec7acc7785407" style="color: #4f4f4f; text-decoration: underline;">View in browser</a> | <a href="http://click.microsoftstoreemail.com/?qs=cd38feef6123d7298dddfd2d9f225889c7a2723411b1b74210c9de3126f3b097d57d8df9e5ea8a8938553abd515464cdef6cc29a6b7d659a" style="color: #4f4f4f; text-decoration: underline;">Careers</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" style="font-family: Arial; font-size: 16px; color: #4f4f4f; mso-line-height-rule: exactly; margin: 0px; line-height: normal; padding-top: 36px;">
+                                                    <div style="line-height: 25px;">
+                                                        Free standard shipping. Expected delivery within 3-7 business days after shipping. See
+                                                        <a href="http://click.microsoftstoreemail.com/?qs=1ff6717425b64608e3412fd333e614aa0ed309c52f1e9a82d7d6f76de2fba1301e670e8e04ddca962a0c18645615c39c24b6f08cdf7785b2" style="color: #4f4f4f; text-decoration: underline;">webpage</a> for additional details.
+                                                        <br>
+                                                        <br>
+                                                         
+
+    
+       
+            			<a href="http://click.microsoftstoreemail.com/?qs=a83f0500b506d9ca62bde0cdb21e853ac14c2ec2386a0c6cdfc7a0b7c17752e146c9a6bb56af0d0a58d76d66f428bd26a73a572bbcc8a23d" style="color: #4f4f4f; text-decoration: underline;">Privacy Statement</a><br>
+Microsoft Corporation<br>
+One Microsoft Way<br>
+Redmond, WA 98052
+
+	    
+    
+
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!--//View in Browser module and Footer-->
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- // Email -->
+                </table>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <!-- // Wrapper -->
+    <img src="http://click.microsoftstoreemail.com/open.aspx?ffcb10-fe8e12717161017872-fdf21578706004797c127875-fe60157076610d7b7513-fec21c767365017e-fde81573766d0175771c787d-ff651d7175" width="1" height="1">
+    <img src="https://pixel.app.returnpath.net/pixel.gif?r=b6b37ede2e26de9207512f0232807ec050dcfa66&amp;c=15803_en_US_MSA_Welcome_Email_en_US&amp;campaign=15803_en_US_MSA_Welcome_Email_en_US&amp;version=A" width="1" height="1">
+    <img src="http://www.movable-ink-397.com/p/cp/de6f1436b852cba1/o.gif?mi_u=1" width="1" height="1">
+</body>
+</html>
+
+--Wv2K4MfiLzoI=_?:--
